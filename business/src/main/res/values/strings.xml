@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">business</string>
+    <string name="phone_is_empty">请输入电话号码</string>
+    <string name="pwd_is_empty">请输入密码</string>
 </resources>

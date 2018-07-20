@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Zone</string>
+    <string name="login_title">登录顺聊账号</string>
+    <string name="login_hint_user_name">请输入手机号</string>
+    <string name="login_hint_pws">请输入密码</string>
+    <string name="login_btn">登录</string>
+    <string name="login_success">登录成功</string>
+    <string name="clear_cache">清理缓存</string>
 </resources>
