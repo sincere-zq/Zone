@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CommonModule</string>
+    <string name="easy_adapter">easy_adapter</string>
+    <string name="easy_permission">easy_permission</string>
+    <string name="request_permission">请求权限</string>
+    <string name="already_have_permission">已拥有权限</string>
+    <string name="message_setting_comeback">从设置页面回来</string>
+    <string name="title_dialog">申请权限</string>
+    <string name="setting">设置</string>
+    <string name="cancel">取消</string>
+    <string name="message_permission_always_failed">总是拒绝</string>
+    <string name="failure">用户已拒绝</string>
+    <string name="successfully">申请成功</string>
+    <string name="message_permission_rationale">基本权限处理</string>
+    <string name="resume">重试</string>
+    <string name="touch_test">touch_test</string>
+</resources>
