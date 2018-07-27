@@ -11,7 +11,7 @@
         android:id="@+id/btn_clear"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/bg_login_btn"
+        android:background="@color/white"
         android:text="@string/clear_cache"
         android:textColor="@color/white" />
 

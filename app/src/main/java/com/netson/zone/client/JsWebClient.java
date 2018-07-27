@@ -8,9 +8,6 @@ import android.webkit.WebView;
 
 import com.netson.commonmodule.utils.LogUtil;
 
-import java.util.HashMap;
-import java.util.Set;
-
 public class JsWebClient extends WebChromeClient {
     // 拦截输入框(原理同方式2)
     // 参数message:代表promt（）的内容（不是url）
@@ -34,17 +31,17 @@ public class JsWebClient extends WebChromeClient {
                 // 执行JS所需要调用的逻辑
                 System.out.println("js调用了Android的方法");
                 // 可以在协议上带有参数并传递到Android上
-                HashMap<String, String> params = new HashMap<>();
-                Set<String> collection = uri.getQueryParameterNames();
+//                HashMap<String, String> params = new HashMap<>();
+//                Set<String> collection = uri.getQueryParameterNames();
                 new Thread(new Runnable() {
                     @Override
                     public void run() {
                         LogUtil.e("thread : " + Thread.currentThread().getName());
                         result.confirm("Android返回结果 : 我是代神需要的照片\n" +
                                 "当前Android线程 : " + Thread.currentThread().getName());
+                        //参数result:代表消息框的返回值(输入值)
                     }
                 }).start();
-                //参数result:代表消息框的返回值(输入值)
             }
             return true;
         }
